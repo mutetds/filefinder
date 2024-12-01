@@ -16,7 +16,7 @@
             <header style="padding: 1rem;">
                 <nav class="navbar navbar-expand-lg bg-body-tertiary">
                     <div class="container-fluid">
-                      <a class="navbar-brand" href="#">FileFinder</a>
+                      <a class="navbar-brand" href="https://filefinder" onclick="location.reload();" id="cancelEventReload">FileFinder</a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
@@ -55,7 +55,7 @@
                 <button type="button" onclick="window.download.showModal()" id="cancelEventDownload" class="btn btn-primary" style="margin-top: 3%;">Скачать версию 1.0</button>
             </div>
         </div>
-        <dialog id="download" style="text-align: center;">
+        <dialog id="download" style="text-align: center;" class="border downloadanim">
                 <p class="text">При скачивании программы FileFinder, вы соглашаетесь с <a href="https://filefinder.mutetds.ru/user-agreement"> пользовательским соглашением</a></p>
                 <a href="https://mutetds.ru/filefinderinstall" class="btn btn-success">Скачать файл</a>
                 <a href="#" onclick="window.download.close()" class="btn btn-secondary">Закрыть окно</a>

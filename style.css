@@ -80,3 +80,15 @@ p {
     display: none;
     text-align: center;
   }
+dialog[open] {
+    animation: fadein 2s ease-in forwards;
+  }
+  
+@keyframes fadein{
+    0%{
+      opacity:0;
+    }
+    100%{
+      opacity:1;
+    }
+  }

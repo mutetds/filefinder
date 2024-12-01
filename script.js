@@ -1,6 +1,9 @@
 document.getElementById("cancelEventDownload").addEventListener("click", function(event){
     event.preventDefault()
   });
+  document.getElementById("cancelEventReload").addEventListener("click", function(event){
+    event.preventDefault()
+  });
 document.addEventListener('DOMContentLoaded', function () {
     const darkSwitch = document.getElementById('darkSwitch');
     const currentTheme = localStorage.getItem('theme');
